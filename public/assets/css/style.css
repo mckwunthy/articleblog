@@ -1,0 +1,269 @@
+/*base.php*/
+div.container {
+    min-height: 78vh;
+}
+
+footer {
+    background-color: black;
+    color: red;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*nav_bar.php*/
+nav.navbar div.container-fluid div.collapse ul.navbar-nav li a {
+    color: orange;
+}
+
+nav.navbar div.container-fluid a.navbar-brand {
+    font-weight: bold;
+    color: red;
+}
+
+div.loginForm,
+div.SingupForm {
+    margin: auto 0;
+}
+
+div.loginForm form input {
+    border: none;
+    border-radius: 5px;
+}
+
+div.loginForm form input[type="submit"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: bold;
+}
+
+div.SingupForm form {
+    margin: auto 0;
+}
+
+div.SingupForm button {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+ul .username {
+    position: absolute;
+    color: greenyellow;
+    right: 20px;
+    top: 20px;
+    font-weight: bold;
+}
+
+/*create acount form*/
+
+div.createAccountBox {
+    z-index: 999;
+    width: 550px;
+    border: 5px ridge black;
+    padding: 50px;
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+    background-color: teal;
+    color: white;
+}
+
+form#createAccountForm div.d-flex {
+    width: 100%;
+    font-weight: bold;
+}
+
+form#createAccountForm select#sexe {
+    height: 40px;
+    border-radius: 5px;
+}
+
+/*home.php*/
+div.productImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 18rem;
+    height: 12rem;
+}
+
+div.card-body :nth-child(3) {
+    font-weight: bold;
+    color: orange;
+}
+
+.productsIndiv {
+    margin: 5px 0;
+}
+
+div.priceAndDetailBt {
+    width: 17rem;
+}
+
+/*home.php*/
+div.productImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25rem;
+    height: 15rem;
+}
+
+div.articleBox {
+    height: 530px;
+}
+
+div.productsIndiv {
+    height: 98%;
+}
+
+div.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.card-body :nth-child(3) {
+    display: flex;
+    align-items: center;
+}
+
+div.card-body :nth-child(3) a:first-child {
+    font-weight: bold;
+    color: white;
+    background-color: teal;
+    margin-right: 2px;
+}
+
+div.card-body :nth-child(3) a:nth-child(2) {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    height: 100%;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+div.priceAndDetailBt {
+    width: 17rem;
+}
+
+/*write.php*/
+div.writeArticle {
+    border: 2px solid teal;
+    width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div.writeArticle form label {
+    font-weight: bold;
+    color: teal;
+}
+
+div.writeArticle form textarea {
+    resize: none;
+}
+
+/* div.messageInfo {
+    position: absolute;
+    top: 5px;
+} */
+/*single_event.php*/
+div.single_event {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+div.single_event div.img {
+    width: 70vw;
+    height: 300px;
+    border: 2px ridge teal;
+    margin: 10px auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.single_event div.img img {
+    width: 100%;
+    height: 100%;
+}
+
+div.single_event .description {
+    text-align: justify;
+}
+
+/*read.php*/
+button.commentQty {
+    margin-left: 110px;
+    margin-bottom: 5px;
+}
+
+div.commentBox {
+    width: 70vw;
+    height: 70vh;
+    overflow: auto;
+    margin: 0 auto;
+    /* padding-bottom: 120px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.commentItem {
+    border: 1px solid #ccc;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #efefef;
+}
+
+div.commentItem .commentItemAuthor span {
+    text-decoration: underline;
+}
+
+div.blocOne {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+div.commentArticle {
+    width: 68vw;
+    height: 120px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #efefef;
+}
+
+div.commentArticle form textarea {
+    resize: none;
+    padding-right: 55px;
+}
+
+div.commentArticle form {
+    position: relative;
+}
+
+div.commentArticle form button {
+    width: 50px;
+    height: 85%;
+    margin: auto 0;
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
+    border: none;
+}
+
+div.commentArticle form button:hover {
+    background-color: #ccc;
+    border-radius: 2px;
+}
